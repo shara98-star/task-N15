@@ -18,3 +18,13 @@ print(f"the cheapest product is: {dictionary[min(price_list)]}")
 for i in dictionary:
     if price_list.count(i)>1:
         print(f"there are more than one with same prices ,for example :{dictionary[i]}")  
+
+sum=0
+for i in price_list:
+    sum+=i/n
+print(f"Average price is :{sum} gel ")
+
+
+
+
+
